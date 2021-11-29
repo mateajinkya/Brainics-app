@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrainicsStudyTips">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Study Tips"
+                android:textAlignment="center"
+                android:textSize="34sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/studyTips"
+                android:layout_below="@+id/editTextTextPersonName2"
+                android:text="Here are some of our tips to help you succeed academically. We have compiled this list after observing what tends to help college students in general. "/>
+
+            <EditText
+                android:id="@+id/timeManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Managing Time"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023"
+                android:layout_below="@+id/studyTips"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timeManagementDesc"
+                android:layout_below="@+id/timeManagement"
+                android:text="The key to proper time management is proper prioritization and working on tasks in small increments, preferably with time rather than against it. And proper time management is the key to academic success. Here are our 7 tips to manage time effectively: \n\n
+\t1. Set reasonable goals. Make sure the goals you set are Specific, Measurable, Achievable, Relevant, and Timely. We call this the SMART method to set goals. \n\n
+\t2. Prioritize your tasks based on urgency. Identify all of your tasks, and arrange them in the order of priority, in terms of deadlines and overall difficulty. \n\n
+\t3. Set reasonable deadlines for each task. Preferably, start the task as early as possible, and work on it in small chunks. Reward yourself after the completion of each chunk. \n\n
+\t4. Don't forget your breaks! Your brain needs time to unwind and relax after the completion of a task. It takes energy for your brain to work on taasks, so take breaks after completing each tasks. During your breaks, focus on an enjoyable activity that helps you de-stress. \n\n
+\t5. Remember to stay organized. Make sure you put all of your tasks down in your planner. Think about which days are best for working on a particular assignment. \n\n
+\t6. Remember to also remove excess/unnecessary tasks. Determine what is necessary and what is worth your time. Removing unnecessary activities (but not your breaks!) will help you complete your tasks faster. \n\n
+\t7. Plan ahead! At the end of each day, review your planner so that you have an idea as to what more is to come. This will help you stay prepared for future tasks, and will also help you prioritize efficiently. \n\n
+\t8. Reward yourself! You are working hard, and you deserve something in return. While the results of good time management are excellent, you will see them only in the long term. But in the short term, try watching your favorite movie or reading your favorite book on a weekend. You deserve it! \n\n
+"/>
+            <EditText
+                android:id="@+id/onMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Music?"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023"
+                android:layout_below="@+id/timeManagementDesc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/musicDesc"
+                android:layout_below="@+id/onMusic"
+                android:text="Yes, we all love listening to it. Nothing like listening to your favorite artist while you work on that assignment, right? Well, we have good news and...good news. The good news? Studies have shown that listening to music while you
+study helps boost focus and improves tenacity. The other good news? Just not the kind of music you love listening to perhaps. The music we are talking about is instrumental relaxing music. It is good news because it will improve your focus. For that reason, we do recommend listening to
+relaxing instrumental music while you study. We have a collection of some of those here on Brainics. \n\n"/>
+
+            <EditText
+                android:id="@+id/onMath"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="What about Math?"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023"
+                android:layout_below="@+id/musicDesc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mathDesc"
+                android:layout_below="@+id/onMath"
+                android:text="It seems weirdly difficult for a lot of us. But the good news is that if you are one of those who struggled with math, you aren't alone! So have all of us at Brainics! We have compiled some tips for you, from the University of Oregon: \n\n
+\t1. Put in the appropriate amount of work. For a student with average abilities, a four-credit course should require about twelve hours of work per week (including class time). Some students will pick up the subject more quickly and not require the full twelve hours, and others will need to put in more than twelve. That is okay, and part of normal human variation. But don’t expect that putting in just a few hours per week will lead to success. \n\n
+\t2. Put in the appropriate quality of work. It's not just about the time. It is about what you make of it! Do you tend to use your phone while studying? Do you work on homework while watching Squid Game? Try to limit the amount of distractions during your study sessions. Brainics itself features a Pomodoro timer, and the point of it is to study in small chunks but focus while you do. \n\n
+\t3. Understand the learning process. Understanding the concepts is usually never enough in quantitative classes like Math. Doing lots of sample problems will boost your comprehension. \n\n
+\t4. Read the textbook. Most math courses, even college level ones, prescribe a textbook. It contains all of the concepts and their explanations in detail. If you are having trouble with a concept, read the textbook. \n\n
+\t5. Start the homework early. Yes, we know, you probably love procrastination. But starting the homework as soon as it is given will not only give you enough time to work on it, but will also give you time to seek help from your instructors if you are struggling on any of the problems. \n\n
+\t6. Don't hesitate to seek help! Your instructor wants you to succeed. They are rooting for you. Most high schools and colleges offer lots of tutoring, mentoring, and office hours when students can go and seek help. Don't wait until you are struggling to seek help! \n\n
+\t7. Lastly, understand that Math is not about memorization. Solve lots of different types of problems. Learn how you get from one step of a problem to the next. Learn why you do what you do. MStudents who memorize math will only learn to solve one type of problem. Don't expect that the problems on the exam will be exactly like those in the homework! \n\n"/>
+
+            <EditText
+                android:id="@+id/miscellaneous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Miscellaneous study tips"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023"
+                android:layout_below="@+id/mathDesc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/miscellaneousDesc"
+                android:layout_below="@+id/mathDesc"
+                android:text="In this section, we bring to you 10 top study habits of successful students. Understand that these are generic study habits that should help. But subject-specific study habits may combine these with other study techniques. Don't hesitate to ask your instructors for subject-specific study habits! \n\n
+\t1. Pick a place and time to study, and limit distractions. Keep your study areas clean and organized. Nobody likes studying on a cluttered table! Find out which time works best for you. Some people are most active in the morning, some at night. Find out when you tend to focus the best. \n\n
+\t2. Study everyday. Don't procrastinate. Studying or working on your assignments a little bit every day will reduce the burden you might have to deal with if you study the night before the test. \n\n
+\t3. Plan your study routine. Study in small chunks. This will help you stay motivated and focused. \n\n
+\t4. Discover your learning style, and take notes accordingly. Some people are visual learners, some are auditory learners, and some others are kinesthetic learners. Find out what works best for you and take concise notes catering to your individual learning styles. \n\n
+\t5. Review and revise your notes at least once in a week. This will not just prepare you for pop quizzes, but will also help space out your learning. \n\n
+\t6. Take breaks in between study sessions, so that your brain will get a much needed break from constant studying. Your brain will better retain learned information if you give it time to process it. \n\n
+\t7. If something doesn't make sense, ask for help promptly. Don't wait until the exam comes by to get concepts clarified. The night before a test is not the time to get concepts clarified, it is to review already clarified concepts! \n\n
+\t8. Know that while it is important to stay motivated, motivation is not something that you wait for. Get into a regular routine and stay disciplined. Motivation will soon find you! \n\n
+\t9. Use technology wisely. Instead of using your phone for scrolling through Instagram, use it primarily for Brainics! Limiting distractions is how you stay focused. \n\n
+\t10. Remember to take care of your health. Exercise regularly. Do anaerobic exercises like jogging, for about 30 minutes, 3 times in a week. Eat healthy food, rich in proteins and vitamins. You will study the best when you are in good health!\n\n"/>
+
+            <EditText
+                android:id="@+id/goodluck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="From all of us at Brainics, good luck!!! \n\n"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023"
+                android:layout_below="@+id/miscellaneousDesc"/>
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintVertical_bias="0.973"
+        tools:ignore="NotSibling" />
+</androidx.constraintlayout.widget.ConstraintLayout>

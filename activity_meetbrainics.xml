@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".meetbrainics">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Hey! It's me, Brainics!"
+                android:textAlignment="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.023" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/editTextTextPersonName4"
+                android:text="I am here to help you study and get good grades. No, really! I am an interactive app that comes
+with several different features. Whether you are a college or a high school student looking to improve your study skills or if you
+just want to improve time management, I am here for you. My goal is to improve your focus, enhance time management, schedule tasks,
+help you overcome procrastination, and well...improve grades! I have four features, which will all work together to make you a better student. \n\n
+\t1. The Scheduling functionality will help you schedule your tasks in order of priority and help you accomplish them. You can add the descriptions of all your tasks and enter the due dates. They will be scheduled in a table format. If you ever feel the need to change the order of a task, simply drag the task and place it wherever you want! Tip: I recommend the task with the fastest approaching due date to be scheduled the first, but it is not a requirement. \n\n
+\t2. The Relaxing Music functionality allows you to choose from my selection of relaxing music meant for studying and stress relief. Listening to relaxing music helps you focus and de-stress. Hence, I recommend listening to my selection of music while studying instead of your Spotify playlist! \n\n
+\t3. The Pomodoro timer functionality helps you avoid procrastination and space out your study session. The idea is that you set a timer for 25 minutes and study for that time, then take a 5 minute break. Do this 4 times and then take a 30 minute break. The pomodoro timer functionality is meant for just that. The timer is set to exactly 25 minutes. You can pause it and reset it as well. This way, you can space out your study sessions, unwind during those precious looooong 5 minute breaks, and work with time rather than against it. Remember, I want to make time your friend, not enemy! \n\n
+\t4. The study tips functionality will give you a wide array of study tips chosen by me after speaking to several high school and college students after asking what works for them. I also provide a special study tips section specifically for your favorite subject, Math! You can use this functionality to browse through the recommendations I have for you. While my study tips are more generic than not, these study tips are generally what successful college students have used, and they have worked. As mentioned in the study tips section, I recommend asking your instructor for subject-specific study tips. But I'll take care of the general study tips. \n\n" />
+            app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        app:layout_constraintVertical_bias="0.974" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
